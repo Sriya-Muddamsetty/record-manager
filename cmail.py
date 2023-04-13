@@ -3,7 +3,7 @@ from smtplib import SMTP
 from email.message import EmailMessage
 def sendmail(to,otp=False,subject=False,body=False):
     server=smtplib.SMTP_SSL('smtp.gmail.com',465)
-    server.login('sriyamuddamsetty02@gmail.com','sppcchhmtygraxzh')
+    server.login('sriyamuddamsetty02@gmail.com','skdzppzqqrawwxqc')
     msg=EmailMessage()
     msg['From']='sriyamuddamsetty02@gmail.com'
     msg['Subject']='Account Sign \
